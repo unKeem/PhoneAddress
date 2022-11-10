@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MainActivity"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btn_callAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Contacts" />
+
+    <Button
+        android:id="@+id/btn_allAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="모든 전화번호 가져오기" />
+
+</LinearLayout>
